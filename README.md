@@ -1,6 +1,6 @@
 # onboarding_screen
 
-A new Flutter project.
+In this Project I have made a onBoardingScreen with animations and a page controller that shows realtime changes in the pages.
 
 ## Getting Started
 
