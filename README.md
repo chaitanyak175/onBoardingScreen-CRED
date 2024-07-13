@@ -2,6 +2,12 @@
 
 In this Project I have made a onBoardingScreen with animations and a page controller that shows realtime changes in the pages.
 
+
+
+https://github.com/user-attachments/assets/63a9821b-1a04-43cf-a77d-66adde23c168
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
