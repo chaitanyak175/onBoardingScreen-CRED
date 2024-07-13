@@ -1,4 +1,4 @@
-# onboarding_screen
+# Onboarding Screen
 
 In this Project I have made a onBoardingScreen with animations and a page controller that shows realtime changes in the pages.
 
