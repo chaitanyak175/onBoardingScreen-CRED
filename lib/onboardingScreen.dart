@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:onboarding_screen/setHighRefreshRate.dart';
 
 class Onboardingscreen extends StatefulWidget {
   const Onboardingscreen({super.key});
@@ -8,7 +9,8 @@ class Onboardingscreen extends StatefulWidget {
   State<Onboardingscreen> createState() => _OnboardingscreenState();
 }
 
-class _OnboardingscreenState extends State<Onboardingscreen> {
+class _OnboardingscreenState extends State<Onboardingscreen>
+    with Sethighrefreshrate {
   late PageController _pageController;
 
   int _pageIndex = 0;
@@ -16,6 +18,7 @@ class _OnboardingscreenState extends State<Onboardingscreen> {
   void initState() {
     _pageController = PageController(initialPage: 0);
     super.initState();
+    setHighRefreshRate();
   }
 
   @override
